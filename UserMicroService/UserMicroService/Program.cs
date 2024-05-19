@@ -1,4 +1,6 @@
-
+using Infrastructure;
+using Infrastructure.Data;
+using Microsoft.AspNetCore.Identity;
 namespace UserMicroService
 {
     public class Program
@@ -13,6 +15,8 @@ namespace UserMicroService
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddInfrastructure(builder.Configuration);
+            builder.Services.AddIdentityCore<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
 
             var app = builder.Build();
 
