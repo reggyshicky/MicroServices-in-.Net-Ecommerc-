@@ -16,39 +16,36 @@ This project involves creating an e-commerce platform using a microservices arch
 + Real-time Notifications: Notify users about order status changes in real time.
 
 ## Architecture and Concepts
-Microservices Architecture: Independent services that communicate over APIs.
-Event-Driven Communication: Using RabbitMQ for asynchronous messaging between services.
-Caching: Using Redis for caching frequently accessed data to improve performance.
-Data Access: Entity Framework Core for database interactions.
-API Development: Developing RESTful APIs for communication between microservices.
-Security: Implementing secure authentication and authorization mechanisms.
-Logging and Monitoring: Using tools for logging and monitoring service health and performance.
+- Microservices Architecture: Independent services that communicate over APIs.
+- Event-Driven Communication: Using RabbitMQ for asynchronous messaging between services.
+- Caching: Using Redis for caching frequently accessed data to improve performance.
+- Data Access: Entity Framework Core for database interactions.
+- API Development: Developing RESTful APIs for communication between microservices.
+- Security: Implementing secure authentication and authorization mechanisms.
+- Logging and Monitoring: Using tools for logging and monitoring service health and performance.
+
 ## Technologies
-ASP.NET Core: For building the microservices.
-Entity Framework Core: For data access and ORM.
-RabbitMQ: For messaging and event-driven communication.
-Redis: For caching.
-Docker: For containerizing the microservices.
-Kubernetes: For orchestration and management of Docker containers.
-Eureka: For service discovery.
-API Gateway: For routing and managing API requests.
-Getting Started
-Prerequisites
-.NET Core SDK
-Docker
-Kubernetes
-RabbitMQ
-Redis
-SQL Server or any other relational database
-Installation
+- ASP.NET Core: For building the microservices.
+- Entity Framework Core: For data access and ORM.
+- RabbitMQ: For messaging and event-driven communication.
+- Redis: For caching.
+- Docker: For containerizing the microservices.
+- Kubernetes: For orchestration and management of Docker containers.
+- Consul: For service discovery.
+- API Gateway: For routing and managing API requests.
+
+## Getting Started
+### Prerequisites
+- .NET Core SDK
+- Docker
+- Kubernetes
+- RabbitMQ
+- Redis
+- SQL Server or any other relational database
+### Installation
 Clone the Repository
+- git clone https://github.com/yourusername/ecommerce-platform.git
+- cd ecommerce-platform
 
-bash
-Copy code
-git clone https://github.com/yourusername/ecommerce-platform.git
-cd ecommerce-platform
 Build and Run Microservices with Docker Compose
-
-bash
-Copy code
-docker-compose up --build
+- docker-compose up --build
