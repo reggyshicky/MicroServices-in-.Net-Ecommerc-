@@ -9,12 +9,13 @@ This project involves creating an e-commerce platform using a microservices arch
 - PaymentService: Handles payment processing and transaction management.
 - NotificationService: Sends real-time notifications for order status changes.
 ## Features
-User Registration and Authentication: Securely register and authenticate users.
--- Product Catalog: Display products with search and filtering capabilities.
-Shopping Cart and Order Management: Allow users to manage their shopping carts and process orders.
-Payment Processing: Handle secure payments and manage transactions.
-Real-time Notifications: Notify users about order status changes in real time.
-Architecture and Concepts
++ User Registration and Authentication: Securely register and authenticate users.
++ Product Catalog: Display products with search and filtering capabilities.
++ Shopping Cart and Order Management: Allow users to manage their shopping carts and process orders.
++ Payment Processing: Handle secure payments and manage transactions.
++ Real-time Notifications: Notify users about order status changes in real time.
+
+## Architecture and Concepts
 Microservices Architecture: Independent services that communicate over APIs.
 Event-Driven Communication: Using RabbitMQ for asynchronous messaging between services.
 Caching: Using Redis for caching frequently accessed data to improve performance.
