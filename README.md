@@ -1,13 +1,13 @@
 # E-Commerce Platform
--- Overview
+Overview
 This project involves creating an e-commerce platform using a microservices architecture. The platform includes services for user management, product catalog, order processing, payment handling, and notifications. Technologies such as ASP.NET Core, Entity Framework Core, RabbitMQ, Redis, Docker, and Kubernetes will be utilized, along with Eureka for service discovery and an API Gateway for request routing.
 
 ## Microservices
-UserService: Manages user registration and authentication.
-ProductService: Handles product catalog, search, and filtering.
-OrderService: Manages shopping cart and order processing.
-PaymentService: Handles payment processing and transaction management.
-NotificationService: Sends real-time notifications for order status changes.
+- UserService: Manages user registration and authentication.
+- ProductService: Handles product catalog, search, and filtering.
+- OrderService: Manages shopping cart and order processing.
+- PaymentService: Handles payment processing and transaction management.
+- NotificationService: Sends real-time notifications for order status changes.
 ## Features
 User Registration and Authentication: Securely register and authenticate users.
 -- Product Catalog: Display products with search and filtering capabilities.
@@ -22,7 +22,7 @@ Data Access: Entity Framework Core for database interactions.
 API Development: Developing RESTful APIs for communication between microservices.
 Security: Implementing secure authentication and authorization mechanisms.
 Logging and Monitoring: Using tools for logging and monitoring service health and performance.
-Technologies
+## Technologies
 ASP.NET Core: For building the microservices.
 Entity Framework Core: For data access and ORM.
 RabbitMQ: For messaging and event-driven communication.
